@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fav-photos.component.html',
   styleUrls: ['./fav-photos.component.css']
 })
+
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'Best Photoes of the Century';
+  image1 = "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHN0b2NrJTIwbWFya2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
+  image2 = "https://images.unsplash.com/photo-1616784660528-e1824a8ae041?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN0b2NrJTIwbWFya2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
+  image3 = "https://images.unsplash.com/photo-1621739165914-7155e5d4816e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZWxvbiUyMG11c2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
 
   constructor() { }
 
