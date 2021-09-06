@@ -5,7 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './page-title.component.html',
   styleUrls: ['./page-title.component.css']
 })
+
+
 export class PageTitleComponent implements OnInit {
+
+  title: string = "Page Title"
 
   constructor() { }
 
